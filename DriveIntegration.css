@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button.primary {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  button.secondary {
+    background-color: #34a853;
+    color: white;
+  }
+  
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .folder-select {
+    margin-top: 15px;
+  }
+  
+  .auth-link {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
